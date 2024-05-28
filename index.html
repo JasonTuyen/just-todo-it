@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="time-section">
+      <div id="day-of-week"></div>
+      <div id="current-time"></div>
+      <div id="current-date"></div>
+      <div>
+        <button id="start-timer">Start Timer</button>
+        <button id="stop-timer" disabled>Stop Timer</button>
+        <button id="reset-timer" disabled>Reset Timer</button>
+        <button id="add-minute">+1 Minute</button>
+        <button id="subtract-minute">-1 Minute</button>
+        <div id="timer-display">00:00</div>
+      </div>
+    </div>
+    <div class="todo-section">
+      <h2>To-Do List</h2>
+      <div id="todo-list">
+        <!-- Todo items will be dynamically added here -->
+      </div>
+      <div>
+        <input type="text" id="todo-input" placeholder="Enter a new task">
+        <button id="add-todo">Add Task</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
